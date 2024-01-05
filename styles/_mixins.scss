@@ -1,0 +1,23 @@
+@import './variables';
+@mixin btn {
+  color: #fff;
+  background-color: $primaryColor;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 200%;
+  padding: 13px 37px;
+  transition: background 0.3s;
+  &:hover {
+    background-color: $hoverColor;
+    outline: none;
+  }
+}
+
+@mixin topTitle {
+  color: $primaryColor;
+  font-size: 14px;
+  line-height: 110%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

@@ -9,12 +9,6 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="preloader">
-      <div class="preloader__row">
-        <div class="preloader__item"></div>
-        <div class="preloader__item"></div>
-      </div>
-    </div>
     <div class="wrapper">
       <header class="header">
         <div class="header__container">
@@ -387,13 +381,4 @@
       </footer>
     </div>
   </body>
-  <script>
-    window.onload = function () {
-      document.body.classList.add('loaded_hiding')
-      window.setTimeout(function () {
-        document.body.classList.add('loaded')
-        document.body.classList.remove('loaded_hiding')
-      }, 500)
-    }
-  </script>
 </html>
